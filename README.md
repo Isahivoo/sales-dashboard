@@ -2,8 +2,8 @@
 
 ## Projektziel
 
-Ziel dieses Projekts war es, einen vollständigen Business-Intelligence-Workflow umzusetzen, von den Rohdaten bis zum interaktiven Dashboard.
-Der Schwerpunkt lag dabei auf der Datenmodellierung in PostgreSQL, der Datenaufbereitung mit SQL und der Entwicklung eines übersichtlichen Dashboards in Power BI.
+
+Ziel dieses Projekts war die Entwicklung eines vollständigen Business-Intelligence-Workflows zur Analyse von über **113.000 Verkaufsdatensätzen**, von der Datenmodellierung in PostgreSQL über die Datenaufbereitung mit SQL bis hin zu einem interaktiven Dashboard in Power BI.
 
 ## Datensatz
 
