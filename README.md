@@ -70,6 +70,7 @@ Während dieses Projekts konnte ich praktische Erfahrungen in folgenden Bereiche
 
 ![Vertriebsdashboard](Screenshots/dashboard-filter.png)
 
+## Technischer Workflow
 
 ![Vertriebsdashboard](Screenshots/workflow.png)
 
