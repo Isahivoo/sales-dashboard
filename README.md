@@ -48,6 +48,8 @@ Enthalten sind unter anderem:
 
 Zusätzlich können alle Auswertungen nach Kategorie, Region und Zeitraum gefiltert werden.
 
+Die Power-BI-Datei befindet sich im Ordner **powerbi**.
+
 ![Vertriebsdashboard](Screenshots/dashboard-overview.png)
 
 ![Vertriebsdashboard](Screenshots/dashboard-filter.png)
