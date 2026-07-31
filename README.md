@@ -12,14 +12,14 @@ Für dieses Projekt wurde die Datei `Ecommerce_data.csv` verwendet.
 - **Quelle:** Kaggle
 - **Format:** CSV
 - **Import:** PostgreSQL
-- **Umfang:** ca. 113.000 Datensätze
+- **Umfang:** ca. 113.000 Zeilen
 
 Die Daten wurden zunächst in PostgreSQL importiert und anschließend in mehrere logisch getrennte Tabellen normalisiert.
 
 ## Technischer Ablauf
 
 Nach dem Import wurden die Tabellen über Primär- und Fremdschlüssel miteinander verknüpft.
-Anschließend wurde die SQL-View `vw_sales` erstellt, welche als zentrale Datenquelle für Power BI dient.
+Anschließend wurde die SQL-View `vw_sales` erstellt, die als zentrale Datenquelle für Power BI dient.
 
 Die folgende Abbildung zeigt den vollständigen Datenfluss vom CSV-Import bis zum fertigen Dashboard.
 
@@ -145,8 +145,8 @@ DIVIDE([Gesamtgewinn], [Gesamtumsatz])
 
 ## Erkenntnisse aus der Datenanalyse
 
-- Office Supplies erzielte den höchsten Umsatz.
-- Die Region West generierte den größten Umsatz.
+- Die Kategorie "Office Supplies" erzielte den höchsten Umsatz.
+- Die Region "West" generierte den größten Umsatz.
 - Der durchschnittliche Bestellwert lag bei rund 204 €.
 - Die Gewinnmarge betrug ca. 11 %.
 
@@ -161,3 +161,6 @@ Während dieses Projekts konnte ich praktische Erfahrungen in folgenden Bereiche
 - Erstellung von DAX Measures
 - Visualisierung geschäftsrelevanter Kennzahlen
 
+## Fazit
+
+Dieses Projekt zeigt den vollständigen Aufbau eines Business-Intelligence-Workflows, vom Import der Rohdaten über die Datenmodellierung in PostgreSQL bis zur Entwicklung eines interaktiven Dashboards in Power BI.
