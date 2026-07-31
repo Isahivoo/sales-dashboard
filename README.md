@@ -27,15 +27,11 @@ Die folgende Abbildung zeigt den vollständigen Datenfluss vom CSV-Import bis zu
 
 ## Datenmodell
 
-Die Datenbank besteht aus mehreren miteinander verbundenen Tabellen:
+Die folgende Abbildung zeigt die Struktur der PostgreSQL-Datenbank sowie die Beziehungen zwischen den einzelnen Tabellen.
 
-- customers
-- orders
-- order_items
-- products
-- locations
+Primär- und Fremdschlüssel gewährleisten die Konsistenz der Daten und bilden die Grundlage für die spätere SQL-View `vw_sales`.
 
-Durch diese Struktur konnten Redundanzen reduziert und die Daten effizient ausgewertet werden.
+![ER Diagram](Screenshots/er-diagram.png)
 
 ## SQL-Beispiel
 
