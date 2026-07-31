@@ -68,11 +68,6 @@ Die Power-BI-Datei befindet sich im Ordner **powerbi**.
 - Die durchschnittliche Bestellsumme lag bei rund 204 €.
 - Die Gewinnmarge betrug ca. 11 %.
 
-- Office Supplies erzielte den höchsten Umsatz.
-- Die Region West generierte den höchsten Umsatz.
-- Die durchschnittliche Bestellsumme lag bei ca. 204 €.
-- Die Gewinnmarge betrug rund 11 %.
-
 ## Praktische Erfahrungen
 
 Während dieses Projekts konnte ich praktische Erfahrungen in folgenden Bereichen sammeln:
