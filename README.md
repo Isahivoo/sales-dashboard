@@ -2,7 +2,7 @@
 
 ## Projektziel
 
-Ziel dieses Projekts war es, einen vollständigen Business-Intelligence-Workflow umzusetzen – von den Rohdaten bis zum interaktiven Dashboard.
+Ziel dieses Projekts war es, einen vollständigen Business-Intelligence-Workflow umzusetzen, von den Rohdaten bis zum interaktiven Dashboard.
 Der Schwerpunkt lag dabei auf der Datenmodellierung in PostgreSQL, der Datenaufbereitung mit SQL und der Entwicklung eines übersichtlichen Dashboards in Power BI.
 
 ## Technischer Ablauf
@@ -14,6 +14,8 @@ Zur Vereinfachung der Datenanalyse wurde eine SQL-View (`vw_sales`) erstellt, we
 Diese View wurde anschließend als Datenquelle in Power BI verwendet.
 
 Die wichtigsten SQL-Skripte befinden sich im Ordner **SQL**.
+
+![Vertriebsdashboard](Screenshots/workflow.png)
 
 ## Datenmodell
 
@@ -46,6 +48,10 @@ Enthalten sind unter anderem:
 
 Zusätzlich können alle Auswertungen nach Kategorie, Region und Zeitraum gefiltert werden.
 
+![Vertriebsdashboard](Screenshots/dashboard-overview.png)
+
+![Vertriebsdashboard](Screenshots/dashboard-filter.png)
+
 ## Verwendete Technologien
 
 - PostgreSQL
@@ -63,14 +69,4 @@ Während dieses Projekts konnte ich praktische Erfahrungen in folgenden Bereiche
 - Entwicklung interaktiver Dashboards in Power BI
 - Erstellung von DAX Measures
 - Visualisierung geschäftsrelevanter Kennzahlen
-
-## Dashboard-Vorschau
-
-![Vertriebsdashboard](Screenshots/dashboard-overview.png)
-
-![Vertriebsdashboard](Screenshots/dashboard-filter.png)
-
-## Technischer Workflow
-
-![Vertriebsdashboard](Screenshots/workflow.png)
 
